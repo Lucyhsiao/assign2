@@ -89,6 +89,11 @@ void draw(){
         // draw frog
         image(imgFrog, frogX, frogY);
 
+        // -------------------------------
+        // Modify the following code
+        // to meet the requirement
+        // -------------------------------
+        
          //car1 move
          leftCar1X += 3*speed;
          if (leftCar1X > width){
